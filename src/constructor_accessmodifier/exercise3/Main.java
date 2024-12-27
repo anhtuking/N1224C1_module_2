@@ -19,7 +19,7 @@ public class Main {
 
         // chinh sua thong tin khong hop le
         System.out.println("----- Thong tin sau chinh sua -----");
-        System.out.println("Id : " + student.getId());
+        student.setId(2);
         student.setName("");
         student.setScore(11);
     }
