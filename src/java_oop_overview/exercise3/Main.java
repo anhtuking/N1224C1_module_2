@@ -1,4 +1,4 @@
-package java_overview.exercise3;
+package java_oop_overview.exercise3;
 
 public class Main {
     public static void main(String[] args) {

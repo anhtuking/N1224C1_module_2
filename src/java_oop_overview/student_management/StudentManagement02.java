@@ -1,4 +1,4 @@
-package java_overview.student_management;
+package java_oop_overview.student_management;
 
 public class StudentManagement02 {
     public static void main(String[] args) {

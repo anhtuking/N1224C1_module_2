@@ -1,4 +1,4 @@
-package java_overview.student_management;
+package java_oop_overview.student_management;
 
 import java.util.Scanner;
 
