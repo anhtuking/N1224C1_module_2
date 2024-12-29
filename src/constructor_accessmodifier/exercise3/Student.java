@@ -4,6 +4,7 @@ public class Student {
     private int id;
     private String name;
     private double score;
+    static int counter = 0;
 
     public Student(int id, String name, double score) {
         this.id = id;

@@ -22,7 +22,7 @@ public class PhanSo {
         do {
             System.out.print("Nhap vao phan mau ( >0 ): ");
             soMau = sc.nextInt();
-        } while (soMau <= 0);
+        } while (soMau == 0);
     }
 
     public void output() {
