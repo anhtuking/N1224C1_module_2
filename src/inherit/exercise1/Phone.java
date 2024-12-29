@@ -2,7 +2,7 @@ package inherit.exercise1;
 
 import java.util.Scanner;
 
-public class Infor {
+public class Phone {
     static Scanner sc = new Scanner(System.in);
     private static int oldPhoneCounter = 0; // Đếm ID cho điện thoại cũ
     private static int newPhoneCounter = 0; // Đếm ID cho điện thoại mới
@@ -12,11 +12,11 @@ public class Infor {
     private int warranty;
     private String manufacturer;
 
-    public Infor() {
+    public Phone() {
         // Constructor mặc định
     }
 
-    public Infor(String name, double price, int warranty, String manufacturer) {
+    public Phone(String name, double price, int warranty, String manufacturer) {
         this.name = name;
         this.price = price;
         this.warranty = warranty;

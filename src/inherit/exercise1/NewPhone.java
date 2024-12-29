@@ -2,7 +2,7 @@ package inherit.exercise1;
 
 import java.util.Scanner;
 
-public class NewPhone extends Infor{
+public class NewPhone extends Phone {
     static Scanner sc = new Scanner(System.in);
     private int quantity;
 
