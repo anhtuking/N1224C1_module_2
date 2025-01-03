@@ -1,8 +1,8 @@
-package inherit.exercise1;
+package abstraction.exercise1;
 
 import java.util.Scanner;
 
-public class OldPhone extends Phone {
+public class OldPhone extends Phone implements Discountable {
     static Scanner sc = new Scanner(System.in);
     private int batteryCapacity;
     private String description;
@@ -17,6 +17,17 @@ public class OldPhone extends Phone {
         this.setId(generateOldPhoneId());
         this.batteryCapacity = batteryCapacity;
         this.description = description;
+    }
+
+    @Override
+    public double calculateTotalPrice() {
+        return getPrice();
+    }
+
+    @Override
+    public void discount(double percentage) {
+        double discountedPrice = getPrice() * (1 - percentage / 100.0);
+        setPrice(discountedPrice);
     }
 
     public void input(){

@@ -1,4 +1,4 @@
-package inherit.exercise1;
+package polymorphism.exercise3;
 
 import java.util.Scanner;
 

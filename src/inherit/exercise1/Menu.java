@@ -9,6 +9,7 @@ public class Menu {
 
     static ArrayList<OldPhone> oldPhones = new ArrayList<>();
     static ArrayList<NewPhone> newPhones = new ArrayList<>();
+//    static ArrayList<Phone> phones = new ArrayList<>();
 
     static {
         oldPhones.add(new OldPhone("Iphone 16 prm", 1000, 6, "Apple", 99, "Còn ngon ken"));

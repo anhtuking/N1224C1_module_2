@@ -1,4 +1,4 @@
-package inherit.exercise1;
+package abstraction.exercise1;
 
 import java.util.Scanner;
 
@@ -15,6 +15,11 @@ public class NewPhone extends Phone {
         super(name, price, warranty, manufacturer);
         this.setId(generateNewPhoneId());
         this.quantity = quantity;
+    }
+
+    @Override
+    public double calculateTotalPrice() {
+        return getPrice() * quantity;
     }
 
     public void input(){
